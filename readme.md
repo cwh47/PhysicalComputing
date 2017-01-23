@@ -8,6 +8,6 @@
 
 ![alternative text](link to image.jpg)
 
-*this is a list
- *under this list
-  *under this list
+* this is a list
+ * under this list
+  * under this list
