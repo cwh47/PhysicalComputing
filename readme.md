@@ -1,1 +1,3 @@
-#Hi! Welcome to Chelsea's p-comp repository.
+#Hi!
+
+####Welcome to Chelsea's p-comp repository.
