@@ -1,0 +1,26 @@
+//GIF located here --> http://gph.is/2lcqtt5
+
+void setup() {
+
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(5, OUTPUT);
+}
+
+void loop() {
+
+  //red light on, off
+  digitalWrite(12, HIGH);
+  delay(250);
+  digitalWrite(12, LOW);
+  delay(500);
+  //yellow light on, off
+  digitalWrite(8, HIGH);
+  delay(500);
+  digitalWrite(8, LOW);
+  delay(250);
+  //green light on, off
+  digitalWrite(5, HIGH);
+  delay(500);
+  digitalWrite(5, LOW);
+}
