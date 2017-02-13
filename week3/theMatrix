@@ -1,0 +1,39 @@
+int switchState = 0;
+int switchState0 = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+
+  pinMode(3, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(2, INPUT);
+  pinMode(4, INPUT);
+}
+
+void loop() {
+  switchState = digitalRead(2);
+  switchState0 = digitalRead(4);
+  //switch 1
+  if (switchState == LOW) {
+    //if the button isnt pressed
+
+    digitalWrite(3, LOW);
+  }
+  else {
+    //the button is pressed
+    digitalWrite(3, HIGH);
+  }
+  
+  //switch 2
+  if (switchState0 == LOW) {
+    //if the button isnt pressed
+
+    digitalWrite(5, LOW);
+  }
+  else {
+    //the button is pressed
+    digitalWrite(5, HIGH);
+  }
+  
+}
