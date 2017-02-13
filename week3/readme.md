@@ -9,12 +9,13 @@ I did this by creating a circuit in parallel. I followed the instructions
 for an example in the Arduino Project Book but adapted it to work with controlling
 2 different LEDs with 2 separate switches. 
 
+![week4](https://cloud.githubusercontent.com/assets/21225594/22897040/2a30f4a4-f1f0-11e6-8b0e-0f94864f0d7b.jpeg)
+
 I then coded it so that when the program runs, it will check if either switch 1 or
 switch 2 is pressed. If switch 1 is not pressed, the blue LED is turned off. 
 If it is pressed, the blue LED turns on (while pressed). If switch 2 is not pressed,
 the red LED is turned off. If switch 2 is pressed, the red LED turns on (while pressed).
 
 Woot Matrix!
-See a photo of the circuit here: http://imgur.com/a/84eKU
 
 See a gif of the assistant here: http://giphy.com/gifs/l3q2VcbZafS4mjuWQ?status=200
