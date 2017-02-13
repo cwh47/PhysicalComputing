@@ -8,9 +8,9 @@ assistant (yay?).
 I did this by creating a circuit in parallel. I followed the instructions 
 for an example in the Arduino Project Book but adapted it to work with controlling
 2 different LEDs with 2 separate switches. 
+ 
+![alt text](https://ibb.co/mdA8gF]https://image.ibb.co/i4rs8v/IMG_1297_JPG.jpg"circuit")
 
-Inline-style: 
-![alt text](https://ibb.co/mdA8gF)
 
 I then coded it so that when the program runs, it will check if either switch 1 or
 switch 2 is pressed. If switch 1 is not pressed, the blue LED is turned off. 
