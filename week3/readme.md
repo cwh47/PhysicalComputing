@@ -1,4 +1,4 @@
-#The Matrix is scary! :space_invader:
+:space_invader: #The Matrix is scary! :space_invader:
 
 #####Just kidding, no it's not. You just need to choose the right pill.
 
@@ -16,4 +16,5 @@ the red LED is turned off. If switch 2 is pressed, the red LED turns on (while p
 
 Woot Matrix!
 See a photo of the circuit here: http://imgur.com/a/84eKU
+
 See a gif of the assistant here: http://giphy.com/gifs/l3q2VcbZafS4mjuWQ?status=200
