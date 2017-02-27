@@ -1,8 +1,39 @@
-#Digi Hourglass
 
-I made the digital hour glass by following the instructions in the book for putting it together and writing the code. However, I was a little too impatient to wait for an hour to watch all 6 lights turn on. To speed things up a bit, I changed the **long variable** to 600 so that every 600 miliseconds, a bulb would illuminate. 
 
-###Check out a gif of the hourglass here:
-http://gph.is/2lKsnUS
+const int switchPin = 8;
+unsigned long previousTime = 0;
+int switchState = 0;
+int prevSwitchState = 0;
+int led = 2;
+long interval = 600;
 
-###Here's the code
+void setup() {
+
+  for (int x = 2; x < 8; x++) {
+    pinMode(x, OUTPUT);
+  }
+
+  pinMode(switchPin, INPUT);
+}
+
+void loop() {
+
+  unsigned long currentTime = millis();
+
+  if (currentTime - previousTime > interval) {
+    previousTime = currentTime;
+    digitalWrite(led, HIGH);
+    led++;
+    if (led == 7) {
+    }
+  }
+  switchState = digitalRead(switchPin);
+  if (switchState != prevSwitchState) {
+    for (int x = 2; x < 8; x++) {
+      digitalWrite(x, LOW);
+    }
+    led = 2;
+    previousTime = currentTime;
+  }
+  prevSwitchState = switchState;
+}
