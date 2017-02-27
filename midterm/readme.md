@@ -19,3 +19,22 @@ User chooses board and attaches it to box. User presses switch to turn on system
 * Turn on lights
 * Stay on for 1 hours
 * Turn off 
+
+
+###Project idea 2
+
+For my second idea I was thinking of making a lamp shaped like a character or object that changed color based on the temperature of the room. Someone recently bought this lamp (https://www.amazon.com/Mystery-Portable-Rechargeable-Breathing-Sensitive/dp/B01E8M302U) as joke gift for my fiance (it didn't work though, meh). I'm trying to think of what I could use as the "housing" for the lamp...ideas include something that is 3D printed, a canister with hole cutouts (e.g. star projections), or a DIY lamp apparatus.
+
+#####Project 2 code plan
+
+######Interaction
+User presses switch to turn on, cycle through colors, and turn off.
+
+######Components
+* Different color LEDs
+* Lamp housing
+* Switch
+
+######Pseudocode
+* Switch on
+* Switch off 
