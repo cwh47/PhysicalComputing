@@ -10,12 +10,12 @@ I'd like to create something similar that has interchangable scenery. I would de
 User chooses board and attaches it to box. User presses switch to turn on system.
 
 ######Components
-Different color LEDs
-Foam board or cardboard (box)
-Poster board (scenery cutouts)
-Switch
+* Different color LEDs
+* Foam board or cardboard (box)
+* Poster board (scenery cutouts)
+* Switch
 
 ######Pseudocode
-Turn on lights
-Stay on for 1 hours
-Turn off 
+* Turn on lights
+* Stay on for 1 hours
+* Turn off 
