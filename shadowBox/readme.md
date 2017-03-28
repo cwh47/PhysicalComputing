@@ -20,6 +20,7 @@ See the setup in action: http://gph.is/2o4xzoY
 
 Once the code, housing, and hardware were ready, I combined them all to make the nightlight. It turned out okay but I think it would greatly benefit from a version 2.0 and some improvements. In class, it was mentioned that it might be better to make an upward projection rather than a forward one, and with that the encasing could probably be more simplistic and elegant. Additionally, I'd build it so that the photoreceptor could easily access the exterior to read the light level easily. Overall I'm happy with the project but think that it could be super awesome with some more work. 
 
-![img_1506 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24387925/f209e8ac-1345-11e7-9fbd-295784a3bccd.jpeg)
-![img_1505 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24387928/f33eb496-1345-11e7-97c8-7d1530e7bddd.jpeg)
-![img_1507 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24387934/f60f0f40-1345-11e7-9708-62edf1cbcb25.jpeg)
+![img_1505 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24388167/d6c2110e-1346-11e7-8161-ded433573b46.jpg)
+![img_1507 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24388185/fc5891cc-1346-11e7-8546-27e34bcfb50e.jpg)
+![img_1506 jpg-1](https://cloud.githubusercontent.com/assets/21225594/24388201/1809ef24-1347-11e7-91ca-99f49c29c3c1.jpg)
+
