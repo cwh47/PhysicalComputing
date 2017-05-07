@@ -20,5 +20,5 @@ Something that many people take for granted is the luxuries provided by having e
 ![51587619359__52628411-0105-4002-a344-8a65151ee919 jpg](https://cloud.githubusercontent.com/assets/21225594/25784069/80598eb4-3335-11e7-9877-89358f6694bf.jpeg)
 
 ### Process
-The first step was getting the color sensor to read RGB values. Luckily, ColorPAL supplies some (though limited) documentaion [here](http://forums.parallax.com/discussion/138612/colorpal-arduino-problem) for working with the Arduino. I loaded the code into my program and adjusted accordingly. I used to serial monitor to troubleshoot the sensor readings.  
+The first step was getting the color sensor to read RGB values. Luckily, ColorPAL supplies some (though limited) [documentation](http://forums.parallax.com/discussion/138612/colorpal-arduino-problem) for working with the Arduino. I loaded the code into my program and adjusted accordingly, though I will confess that much of the code was unclear and confusing to me. I used to serial monitor to troubleshoot the sensor readings.  
 
