@@ -35,5 +35,7 @@ I made constants for the position that the servo would point to, just to test it
 
 I think I may have just been in over my head for this project. I don't understand nearly enough programming to make it work and really just ended many days completely frustrated and more confused :( I think the project was a great learning experience and it was at least fun to work with the Arduino. I just wish I knew enough to debug it properly and make it work. 
 
+See it freaking the hell out [here](http://gph.is/2qfW2ZU).
+
 
 
