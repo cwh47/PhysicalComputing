@@ -29,5 +29,11 @@ I had to figure out my housing element for the reader, and among other ideas, ju
 
 Next was getting the color sensor to read RGB values. Luckily, ColorPAL supplies some (though VERY limited) [documentation](http://forums.parallax.com/discussion/138612/colorpal-arduino-problem) for working with the Arduino. I loaded the code into my program and adjusted accordingly, though I will confess that much of the code was unclear and confusing to me. I used the serial monitor to troubleshoot the sensor readings. 
 
-The next step was to add the servo motor to the mix, and have it communicate with the sensor. I wired up the servo motor, included the Arduino servo library, and got it to work...but not quite in conjunction with the sensor. I spent hours upon hours trying to figure out how to communicate between the sensor and the servo but couldn't figure it out. I think I may have just been in over my head for this project. I don't understand nearly enough programming to make it work and really just ended many days completely frustrated and more confused. 
+The next step was to add the servo motor to the mix, and have it communicate with the sensor. I wired up the servo motor, included the Arduino servo library, and got it to work...but not quite in conjunction with the sensor. I spent hours upon hours trying to figure out how to communicate between the sensor and the servo but couldn't figure it out.
+
+I made constants for the position that the servo would point to, just to test it out. From there, I created if statements to that would move the servo based off the colors. When I'd view the serial monitor, it would read the colors but only sometimes. Also the servo itself was very jittery, and I couldn't figure out how to fix that. 
+
+I think I may have just been in over my head for this project. I don't understand nearly enough programming to make it work and really just ended many days completely frustrated and more confused :( I think the project was a great learning experience and it was at least fun to work with the Arduino. I just wish I knew enough to debug it properly and make it work. 
+
+
 
