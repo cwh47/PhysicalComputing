@@ -20,7 +20,14 @@ Something that many people take for granted is the luxuries provided by having e
 ![51587619359__52628411-0105-4002-a344-8a65151ee919 jpg](https://cloud.githubusercontent.com/assets/21225594/25784069/80598eb4-3335-11e7-9877-89358f6694bf.jpeg)
 
 ### Process
-The first step was getting the color sensor to read RGB values. Luckily, ColorPAL supplies some (though limited) [documentation](http://forums.parallax.com/discussion/138612/colorpal-arduino-problem) for working with the Arduino. I loaded the code into my program and adjusted accordingly, though I will confess that much of the code was unclear and confusing to me. I used the serial monitor to troubleshoot the sensor readings.  
+I had to figure out my housing element for the reader, and among other ideas, just ended up putting it in a box. I cut a hole on the side to fit the color sensor, as well as a hole on the top for the servo motor arrow. Once I had the placement of everything done, I spraypainted the box with black paint, cut out color strips for the color wheel/glued them on, and cut out an arrow. For the braille component, I used small pushpins and wrote out the first letter of every color onto each color stop of the wheel (but since blue and black both start with "b", black is labeled "bb).
+![img_0048 jpg](https://cloud.githubusercontent.com/assets/21225594/25789389/593c93c8-337e-11e7-92f5-afb391a31d75.jpeg)
 
-The next step was to add the servo motor to the mix, and have it communicate with the sensor.
+![img_0049 jpg](https://cloud.githubusercontent.com/assets/21225594/25789430/94fe0c52-337e-11e7-8964-cbff0f129607.jpeg)
+
+![img_0050 jpg](https://cloud.githubusercontent.com/assets/21225594/25789437/a3c6eee8-337e-11e7-82fd-283c2dd81260.jpeg)
+
+Next was getting the color sensor to read RGB values. Luckily, ColorPAL supplies some (though VERY limited) [documentation](http://forums.parallax.com/discussion/138612/colorpal-arduino-problem) for working with the Arduino. I loaded the code into my program and adjusted accordingly, though I will confess that much of the code was unclear and confusing to me. I used the serial monitor to troubleshoot the sensor readings. 
+
+The next step was to add the servo motor to the mix, and have it communicate with the sensor. I wired up the servo motor, included the Arduino servo library, and got it to work...but not quite in conjunction with the sensor. I spent hours upon hours trying to figure out how to communicate between the sensor and the servo but couldn't figure it out. I think I may have just been in over my head for this project. I don't understand nearly enough programming to make it work and really just ended many days completely frustrated and more confused. 
 
